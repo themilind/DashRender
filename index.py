@@ -5,6 +5,7 @@ import dash_bootstrap_components as dbc
 
 from app import app
 from apps import plot1, plot2
+server = app.server
 
 dropdown = dbc.DropdownMenu(
     children=[
